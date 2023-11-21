@@ -10,10 +10,12 @@ nav,
   background-color: #1F2937;
 }
 
-.logo {
+.logo,
+.header-section-one {
   color: #F9FAF8;
 }
 
-li {
+li,
+.content-section-one {
   color: #E5E7EB;
 }
