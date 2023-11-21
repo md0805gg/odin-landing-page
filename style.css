@@ -4,3 +4,16 @@
   font-family: Roboto, Arial, serif;
 }
 
+.logo,
+nav,
+.section-one {
+  background-color: #1F2937;
+}
+
+.logo {
+  color: #F9FAF8;
+}
+
+li {
+  color: #E5E7EB;
+}
