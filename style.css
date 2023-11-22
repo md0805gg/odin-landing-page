@@ -23,6 +23,7 @@ header,
 li,
 .content-section-one {
   color: #E5E7EB;
+  list-style: none;
 }
 
 header {
