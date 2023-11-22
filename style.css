@@ -48,6 +48,36 @@ ul {
   justify-content: space-between;
 }
 
+.container-section-one {
+  border: white solid 2px;
+  display:flex;
+  height: 300px;
+}
+
+.wrapper {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.header-section-one,
+.content-section-one {
+  width: 100%;
+}
+
+.button-section-one {
+  height: 30px;
+  padding: 0 20px;
+}
+
+.image-placeholder {
+  background-color: gray;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 
