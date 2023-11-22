@@ -4,6 +4,11 @@
   font-family: Roboto, Arial, serif;
 }
 
+body {
+  width: 80%;
+  margin: 0 10%;
+}
+
 .logo,
 nav,
 .section-one {
