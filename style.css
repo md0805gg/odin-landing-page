@@ -32,6 +32,11 @@ header {
   justify-content: space-between;
 }
 
+ul {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
