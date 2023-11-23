@@ -168,6 +168,7 @@ div p {
 }
 
 .author-section-three {
+  font-size: 20px;
   display: flex;
   justify-content: flex-end;
   font-weight: 900;
