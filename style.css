@@ -137,6 +137,31 @@ div p {
   margin-bottom: 10px;
 }
 
+.section-three {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #E5E7EB;
+}
+
+.section-three p {
+  width: 100%;
+}
+
+.content-section-three {
+  color:#1F2937;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 36px;
+  text-decoration: 
+}
+
+.author-section-three {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900;
+}
 
 
 
