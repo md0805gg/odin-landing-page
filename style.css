@@ -13,7 +13,7 @@ body {
 
 header,
 .section-one,
-.section-four
+.section-four,
 footer {
   padding: 0 450px;
 }
@@ -173,6 +173,29 @@ div p {
   justify-content: flex-end;
   font-weight: 900;
 }
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-section-four {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  height: 150px;
+  flex: 1;
+}
+
+.wrapper-call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+  .button-section-four {
+  }
 
 
 
