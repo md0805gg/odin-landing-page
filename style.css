@@ -12,9 +12,19 @@ body {
 }
 
 header,
-body section,
+.section-one,
+.section-four
 footer {
   padding: 0 450px;
+}
+
+.section-two
+ {
+  padding: 0 500px;
+}
+
+.section-three {
+  padding: 0 550px;
 }
 
 .section-one,
