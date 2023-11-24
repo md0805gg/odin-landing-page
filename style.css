@@ -48,7 +48,8 @@ footer {
 
 .logo,
 .header-section-one,
-.image-placeholder {
+.image-placeholder,
+footer {
   color: #F9FAF8;
 }
 
@@ -221,6 +222,12 @@ div p {
   border-radius: 5px;
   padding: 5px 20px;
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
