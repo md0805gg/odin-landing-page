@@ -29,7 +29,7 @@ footer {
 
 header,
 footer {
-  flex: 1
+  flex: 1;
 }
 
 .section-one,
@@ -78,11 +78,12 @@ ul {
 .section-one {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .container-section-one {
   display: flex;
-  flex: 1;
+  flex: 0 1 auto;
 }
 
 .wrapper {
@@ -102,6 +103,7 @@ div p {
 .content-section-one {
   width: 90%;
   font-size: 18px;
+ 
 }
 
 .button-section-one {
