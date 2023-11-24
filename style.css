@@ -27,16 +27,22 @@ footer {
   padding: 0 550px;
 }
 
+header,
+footer {
+  flex: 1
+}
+
 .section-one,
 .section-two,
 .section-three,
 .section-four {
-  flex: 1;
+  flex: 4;
 }
 
 .logo,
 header,
-.section-one {
+.section-one,
+footer {
   background-color: #1F2937;
 }
 
@@ -183,19 +189,39 @@ div p {
 .container-section-four {
   background-color: #3882F6;
   color: #F9FAF8;
-  height: 150px;
   flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  padding: 50px 100px;
+  justify-content: center;
+}
+
+.header-section-four {
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .wrapper-call {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  max-width: 80%;
+  margin-right: auto;
 }
 
-  .button-section-four {
-  }
+.wrapper-call p{
+ margin: 0;
+ padding: 0;
+}
+
+.button-section-four {
+  font-family: Roboto, Arial, serif;
+  font-weight: 700;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: #F9FAF8 solid 2px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
 
 
 
